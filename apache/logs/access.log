@@ -1,0 +1,120 @@
+::1 - - [08/Jan/2026:12:19:46 +0700] "GET / HTTP/1.1" 302 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+::1 - - [08/Jan/2026:12:19:46 +0700] "GET /dashboard/ HTTP/1.1" 200 5186 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+::1 - - [08/Jan/2026:12:19:46 +0700] "GET /dashboard/stylesheets/normalize.css HTTP/1.1" 200 6876 "http://localhost/dashboard/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+::1 - - [08/Jan/2026:12:19:46 +0700] "GET /dashboard/images/xampp-logo.svg HTTP/1.1" 200 5427 "http://localhost/dashboard/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+::1 - - [08/Jan/2026:12:19:46 +0700] "GET /dashboard/javascripts/modernizr.js HTTP/1.1" 200 51365 "http://localhost/dashboard/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+::1 - - [08/Jan/2026:12:19:46 +0700] "GET /dashboard/stylesheets/all.css HTTP/1.1" 200 406998 "http://localhost/dashboard/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+::1 - - [08/Jan/2026:12:19:49 +0700] "GET /dashboard/images/social-icons.png HTTP/1.1" 200 3361 "http://localhost/dashboard/stylesheets/all.css" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+::1 - - [08/Jan/2026:12:19:49 +0700] "GET /dashboard/javascripts/all.js HTTP/1.1" 200 188385 "http://localhost/dashboard/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+::1 - - [08/Jan/2026:12:19:50 +0700] "GET /dashboard/images/favicon.png HTTP/1.1" 200 2508 "http://localhost/dashboard/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+::1 - - [08/Jan/2026:12:19:50 +0700] "GET /dashboard/phpinfo.php HTTP/1.1" 200 96217 "http://localhost/dashboard/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+::1 - - [08/Jan/2026:12:19:50 +0700] "GET /favicon.ico HTTP/1.1" 200 30894 "http://localhost/dashboard/phpinfo.php" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+::1 - - [08/Jan/2026:12:20:38 +0700] "GET /namtran/wp-includes/css/admin-bar.min.css?ver=6.9 HTTP/1.1" 200 20125
+::1 - - [08/Jan/2026:12:20:38 +0700] "GET /namtran/wp-includes/css/dashicons.min.css?ver=6.9 HTTP/1.1" 200 59004
+::1 - - [08/Jan/2026:12:20:38 +0700] "GET /namtran/wp-includes/js/hoverintent-js.min.js?ver=2.2.1 HTTP/1.1" 200 1718
+::1 - - [08/Jan/2026:12:20:38 +0700] "GET /namtran/wp-includes/js/admin-bar.min.js?ver=6.9 HTTP/1.1" 200 3487
+::1 - - [08/Jan/2026:12:20:38 +0700] "GET /namtran/wp-content/plugins/nocache-bfcache/js/bfcache-invalidation.js?ver=1.3.1 HTTP/1.1" 200 6382
+::1 - - [08/Jan/2026:12:20:38 +0700] "GET /namtran/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?ver=b0f909c3ec791c383210 HTTP/1.1" 200 3401
+::1 - - [08/Jan/2026:12:20:38 +0700] "GET /namtran/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=8964710565a1d258501f HTTP/1.1" 200 41076
+::1 - - [08/Jan/2026:12:20:38 +0700] "GET /namtran/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2 HTTP/1.1" 200 53600
+::1 - - [08/Jan/2026:12:20:38 +0700] "GET /namtran/wp-content/plugins/optimization-detective/detect.min.js?ver=1.0.0-beta3 HTTP/1.1" 200 7910
+::1 - - [08/Jan/2026:12:20:03 +0700] "GET /namtran/ HTTP/1.1" 200 78795
+::1 - - [08/Jan/2026:12:20:40 +0700] "GET /favicon.ico HTTP/1.1" 200 30894
+::1 - - [08/Jan/2026:12:20:40 +0700] "GET /namtran/wp-includes/js/wp-emoji-release.min.js?ver=6.9 HTTP/1.1" 200 22762
+::1 - - [08/Jan/2026:12:20:39 +0700] "POST /namtran/wp-cron.php?doing_wp_cron=1767849638.6127350330352783203125 HTTP/1.1" 200 -
+::1 - - [08/Jan/2026:12:20:49 +0700] "GET /namtran/wp-includes/js/thickbox/thickbox.css?ver=6.9 HTTP/1.1" 200 2649
+::1 - - [08/Jan/2026:12:20:49 +0700] "GET /namtran/wp-admin/load-scripts.php?c=1&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils&ver=6.9 HTTP/1.1" 200 102997
+::1 - - [08/Jan/2026:12:20:49 +0700] "GET /namtran/wp-admin/load-styles.php?c=1&dir=ltr&load%5Bchunk_0%5D=dashicons,admin-bar,site-health,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-poi&load%5Bchunk_1%5D=nter,widgets,site-icon,l10n,buttons,wp-auth-check,wp-components,wp-commands&ver=6.9 HTTP/1.1" 200 528950
+::1 - - [08/Jan/2026:12:20:49 +0700] "GET /namtran/wp-includes/css/editor.min.css?ver=6.9 HTTP/1.1" 200 26911
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375 HTTP/1.1" 200 5314
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed HTTP/1.1" 200 2212
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/underscore.min.js?ver=1.13.7 HTTP/1.1" 200 18905
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/wp-util.min.js?ver=6.9 HTTP/1.1" 200 1426
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/clipboard.min.js?ver=2.0.11 HTTP/1.1" 200 9009
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-admin/js/common.min.js?ver=6.9 HTTP/1.1" 200 23676
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/api-request.min.js?ver=6.9 HTTP/1.1" 200 1023
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/dist/url.min.js?ver=9e178c9516d1222dc834 HTTP/1.1" 200 8531
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/wp-ajax-response.min.js?ver=6.9 HTTP/1.1" 200 2571
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-admin/js/site-health.min.js?ver=6.9 HTTP/1.1" 200 6282
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-admin/load-scripts.php?c=1&load%5Bchunk_0%5D=hoverIntent,wp-dom-ready,wp-hooks&ver=6.9 HTTP/1.1" 200 7620
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/wp-lists.min.js?ver=6.9 HTTP/1.1" 200 7521
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/jquery/jquery.color.min.js?ver=3.0.0 HTTP/1.1" 200 6645
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/quicktags.min.js?ver=6.9 HTTP/1.1" 200 11132
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/jquery/jquery.query.js?ver=2.2.3 HTTP/1.1" 200 3694
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-admin/js/edit-comments.min.js?ver=6.9 HTTP/1.1" 200 15488
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3 HTTP/1.1" 200 3428
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3 HTTP/1.1" 200 21464
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-admin/js/postbox.min.js?ver=6.9 HTTP/1.1" 200 6761
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.3 HTTP/1.1" 200 25504
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/dist/deprecated.min.js?ver=e1f84915c5e8ae38964c HTTP/1.1" 200 684
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/dist/date.min.js?ver=795a56839718d3ff7eae HTTP/1.1" 200 783699
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-admin/js/dashboard.min.js?ver=6.9 HTTP/1.1" 200 8862
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1 HTTP/1.1" 200 58812
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105 HTTP/1.1" 200 13332
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-admin/js/plugin-install.min.js?ver=6.9 HTTP/1.1" 200 2403
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-includes/js/wp-sanitize.min.js?ver=6.9 HTTP/1.1" 200 444
+::1 - - [08/Jan/2026:12:20:50 +0700] "GET /namtran/wp-admin/js/updates.min.js?ver=6.9 HTTP/1.1" 200 48443
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-admin/js/media-upload.min.js?ver=6.9 HTTP/1.1" 200 1152
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/shortcode.min.js?ver=6.9 HTTP/1.1" 200 2643
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-admin/js/svg-painter.js?ver=6.9 HTTP/1.1" 200 3280
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/heartbeat.min.js?ver=6.9 HTTP/1.1" 200 5947
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/wp-auth-check.min.js?ver=6.9 HTTP/1.1" 200 1658
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/vendor/react-jsx-runtime.min.js?ver=18.3.1 HTTP/1.1" 200 900
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1 HTTP/1.1" 200 10628
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/escape-html.min.js?ver=6561a406d2d232a6fbd2 HTTP/1.1" 200 1000
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/dom.min.js?ver=26edef3be6483da3de2e HTTP/1.1" 200 12598
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/element.min.js?ver=6a582b0c827fa25df3dd HTTP/1.1" 200 12112
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/is-shallow-equal.min.js?ver=e0f9f1d78d83f5196979 HTTP/1.1" 200 1018
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1 HTTP/1.1" 200 128946
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/keycodes.min.js?ver=34c8fb5e7a594a1c8037 HTTP/1.1" 200 2568
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/html-entities.min.js?ver=e8b78b18a162491d5e5f HTTP/1.1" 200 792
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/priority-queue.min.js?ver=2d59d091223ee9a33838 HTTP/1.1" 200 3382
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/primitives.min.js?ver=0b5dcc337aa7cbf75570 HTTP/1.1" 200 1661
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/private-apis.min.js?ver=4f465748bda624774139 HTTP/1.1" 200 2833
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/compose.min.js?ver=7a9b375d8c19cf9d3d9b HTTP/1.1" 200 36634
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/warning.min.js?ver=d69bc18c456d01c11d5a HTTP/1.1" 200 303
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/redux-routine.min.js?ver=8bb92d45458b29590f53 HTTP/1.1" 200 8889
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/data.min.js?ver=f940198280891b0b6318 HTTP/1.1" 200 25446
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/rich-text.min.js?ver=5bdbb44f3039529e3645 HTTP/1.1" 200 37297
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/blob.min.js?ver=9113eed771d446f4a556 HTTP/1.1" 200 1108
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/keyboard-shortcuts.min.js?ver=fbc45a34ce65c5723afa HTTP/1.1" 200 3056
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/api-fetch.min.js?ver=3a4d9af2b423048b0dee HTTP/1.1" 200 5799
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/commands.min.js?ver=cac8f4817ab7cea0ac49 HTTP/1.1" 200 49929
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/block-serialization-default-parser.min.js?ver=14d44daebf663d05d330 HTTP/1.1" 200 2400
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/shortcode.min.js?ver=0b3174183b858f2df320 HTTP/1.1" 200 2898
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/autop.min.js?ver=9fb50649848277dd318d HTTP/1.1" 200 5614
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/notices.min.js?ver=f62fbf15dcc23301922f HTTP/1.1" 200 2078
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/preferences-persistence.min.js?ver=e954d3a4426d311f7d1a HTTP/1.1" 200 5457
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/components.min.js?ver=ad5cb4227f07a3d422ad HTTP/1.1" 200 805252
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/blocks.min.js?ver=de131db49fa830bc97da HTTP/1.1" 200 176732
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/preferences.min.js?ver=2ca086aed510c242a1ed HTTP/1.1" 200 7014
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/token-list.min.js?ver=cfdf635a436c3953a965 HTTP/1.1" 200 1299
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/style-engine.min.js?ver=7c6fcedc37dadafb8a81 HTTP/1.1" 200 6059
+::1 - - [08/Jan/2026:12:20:42 +0700] "GET /namtran/wp-admin/ HTTP/1.1" 200 227819
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/core-commands.min.js?ver=effe2d88d7f0c50a8ce9 HTTP/1.1" 200 10639
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/router.min.js?ver=2dfc4b954318a03e6a76 HTTP/1.1" 200 13763
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-content/plugins/wp-super-cache/inc/delete-cache-button.js?ver=1.0 HTTP/1.1" 200 842
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/block-editor.min.js?ver=6ab992f915da9674d250 HTTP/1.1" 200 891629
+::1 - - [08/Jan/2026:12:20:51 +0700] "GET /namtran/wp-includes/js/dist/core-data.min.js?ver=15baadfe6e1374188072 HTTP/1.1" 200 70383
+::1 - - [08/Jan/2026:12:20:52 +0700] "GET /namtran/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.13.3 HTTP/1.1" 200 8536
+::1 - - [08/Jan/2026:12:20:52 +0700] "GET /namtran/wp-includes/js/wplink.min.js?ver=6.9 HTTP/1.1" 200 11317
+::1 - - [08/Jan/2026:12:20:52 +0700] "GET /namtran/wp-includes/js/jquery/ui/menu.min.js?ver=1.13.3 HTTP/1.1" 200 10199
+::1 - - [08/Jan/2026:12:20:52 +0700] "GET /namtran/wp-includes/js/thickbox/loadingAnimation.gif HTTP/1.1" 200 15238
+::1 - - [08/Jan/2026:12:20:52 +0700] "GET /namtran/wp-json/wp/v2/users/me?context=edit&_locale=user HTTP/1.1" 200 2352
+::1 - - [08/Jan/2026:12:20:52 +0700] "POST /namtran/wp-admin/admin-ajax.php HTTP/1.1" 200 92
+::1 - - [08/Jan/2026:12:20:53 +0700] "GET /namtran/wp-admin/images/spinner-2x.gif HTTP/1.1" 200 7536
+::1 - - [08/Jan/2026:12:20:55 +0700] "GET /namtran/wp-json/wp/v2/types/post?context=edit HTTP/1.1" 200 3544
+::1 - - [08/Jan/2026:12:20:55 +0700] "GET /namtran/wp-content/plugins/performance-lab/includes/site-health/avif-headers/images/lossy.avif HTTP/1.1" 200 13513
+::1 - - [08/Jan/2026:12:20:55 +0700] "GET /namtran/wp-includes/js/wp-embed.min.js HTTP/1.1" 200 1251
+::1 - - [08/Jan/2026:12:20:55 +0700] "GET /namtran/wp-includes/css/buttons.min.css HTTP/1.1" 200 6061
+::1 - - [08/Jan/2026:12:20:55 +0700] "GET /namtran/wp-includes/fonts/dashicons.woff2 HTTP/1.1" 200 26132
+::1 - - [08/Jan/2026:12:20:55 +0700] "GET /namtran/wp-includes/images/media/video.png HTTP/1.1" 200 283
+::1 - - [08/Jan/2026:12:20:55 +0700] "GET /namtran/ HTTP/1.1" 200 71114
+::1 - - [08/Jan/2026:12:20:55 +0700] "POST /namtran/wp-json/optimization-detective/v1/url-metrics:store HTTP/1.1" 400 216
+::1 - - [08/Jan/2026:12:20:54 +0700] "GET /namtran/wp-admin/site-health.php HTTP/1.1" 200 191666
+::1 - - [08/Jan/2026:12:20:56 +0700] "GET /namtran/wp-json/wp/v2/users/me?context=edit&_locale=user HTTP/1.1" 200 2352
+::1 - - [08/Jan/2026:12:20:56 +0700] "GET /namtran/wp-json/wp-site-health/v1/tests/dotorg-communication?_locale=user HTTP/1.1" 200 526
+::1 - - [08/Jan/2026:12:20:57 +0700] "GET /namtran/wp-admin/site-health.php?tab=debug HTTP/1.1" 200 191869
+::1 - - [08/Jan/2026:12:21:01 +0700] "GET /namtran/wp-json/wp/v2/users/me?context=edit&_locale=user HTTP/1.1" 200 2352
+::1 - - [08/Jan/2026:12:21:01 +0700] "GET /namtran/wp-json/wp-site-health/v1/directory-sizes HTTP/1.1" 200 589
+::1 - - [08/Jan/2026:12:21:11 +0700] "GET /namtran/ HTTP/1.1" 200 78795

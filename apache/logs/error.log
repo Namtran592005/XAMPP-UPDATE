@@ -1,0 +1,47 @@
+[Thu Jan 08 12:19:43.591369 2026] [ssl:warn] [pid 12688:tid 468] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 08 12:19:43.591369 2026] [ssl:warn] [pid 12688:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 08 12:19:43.664239 2026] [ssl:warn] [pid 12688:tid 468] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 08 12:19:43.664239 2026] [ssl:warn] [pid 12688:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[Thu Jan 08 12:19:43.758927 2026] [mpm_winnt:notice] [pid 12688:tid 468] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.6.0 PHP/8.5.1 configured -- resuming normal operations
+[Thu Jan 08 12:19:43.758927 2026] [mpm_winnt:notice] [pid 12688:tid 468] AH00456: Server built: Dec  6 2025 07:20:52
+[Thu Jan 08 12:19:43.758927 2026] [core:notice] [pid 12688:tid 468] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/Xampp/apache'
+[Thu Jan 08 12:19:43.758927 2026] [mpm_winnt:notice] [pid 12688:tid 468] AH00418: Parent: Created child process 9280
+[Thu Jan 08 12:19:44.263224 2026] [ssl:warn] [pid 9280:tid 488] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 08 12:19:44.263224 2026] [ssl:warn] [pid 9280:tid 488] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 08 12:19:44.311286 2026] [ssl:warn] [pid 9280:tid 488] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 08 12:19:44.311286 2026] [ssl:warn] [pid 9280:tid 488] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[Thu Jan 08 12:19:44.358170 2026] [mpm_winnt:notice] [pid 9280:tid 488] AH00354: Child: Starting 150 worker threads.
+[Thu Jan 08 12:19:49.972977 2026] [mpm_winnt:notice] [pid 12688:tid 468] AH00428: Parent: child process 9280 exited with status 3221225477 -- Restarting.
+[Thu Jan 08 12:19:50.053613 2026] [ssl:warn] [pid 12688:tid 468] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 08 12:19:50.053613 2026] [ssl:warn] [pid 12688:tid 468] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[Thu Jan 08 12:19:50.099947 2026] [mpm_winnt:notice] [pid 12688:tid 468] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.6.0 PHP/8.5.1 configured -- resuming normal operations
+[Thu Jan 08 12:19:50.099947 2026] [mpm_winnt:notice] [pid 12688:tid 468] AH00456: Server built: Dec  6 2025 07:20:52
+[Thu Jan 08 12:19:50.099947 2026] [core:notice] [pid 12688:tid 468] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/Xampp/apache'
+[Thu Jan 08 12:19:50.116718 2026] [mpm_winnt:notice] [pid 12688:tid 468] AH00418: Parent: Created child process 3808
+[Thu Jan 08 12:19:50.499312 2026] [ssl:warn] [pid 3808:tid 436] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 08 12:19:50.499312 2026] [ssl:warn] [pid 3808:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 08 12:19:50.550023 2026] [ssl:warn] [pid 3808:tid 436] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 08 12:19:50.550023 2026] [ssl:warn] [pid 3808:tid 436] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[Thu Jan 08 12:19:50.599084 2026] [mpm_winnt:notice] [pid 3808:tid 436] AH00354: Child: Starting 150 worker threads.
+'gs' is not recognized as an internal or external command,
+operable program or batch file.
+[Thu Jan 08 12:23:16.889823 2026] [ssl:warn] [pid 1804:tid 456] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 08 12:23:16.889823 2026] [ssl:warn] [pid 1804:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 08 12:23:16.929588 2026] [core:warn] [pid 1804:tid 456] AH00098: pid file C:/Xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 08 12:23:16.929588 2026] [ssl:warn] [pid 1804:tid 456] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 08 12:23:16.929588 2026] [ssl:warn] [pid 1804:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[Thu Jan 08 12:23:16.992315 2026] [mpm_winnt:notice] [pid 1804:tid 456] AH00455: Apache/2.4.66 (Win64) OpenSSL/3.6.0 PHP/8.5.1 configured -- resuming normal operations
+[Thu Jan 08 12:23:16.992315 2026] [mpm_winnt:notice] [pid 1804:tid 456] AH00456: Server built: Dec  6 2025 07:20:52
+[Thu Jan 08 12:23:16.992315 2026] [core:notice] [pid 1804:tid 456] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/Xampp/apache'
+[Thu Jan 08 12:23:16.992315 2026] [mpm_winnt:notice] [pid 1804:tid 456] AH00418: Parent: Created child process 8048
+[Thu Jan 08 12:23:17.450959 2026] [ssl:warn] [pid 8048:tid 456] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 08 12:23:17.450959 2026] [ssl:warn] [pid 8048:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 08 12:23:17.507584 2026] [ssl:warn] [pid 8048:tid 456] AH01906: www.example.com:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Jan 08 12:23:17.507584 2026] [ssl:warn] [pid 8048:tid 456] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[Thu Jan 08 12:23:17.563765 2026] [mpm_winnt:notice] [pid 8048:tid 456] AH00354: Child: Starting 150 worker threads.
