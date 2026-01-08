@@ -1,135 +1,94 @@
 # XAMPP Custom 4.0.0 – Revived Edition
 
 ---
-
-## 🇬🇧 English
+## English
 
 ### Overview
 
 **XAMPP Custom 4.0.0** is an unofficial, community-driven upgrade of XAMPP for Windows.
 
-XAMPP has effectively stopped active development, while modern web applications (WordPress, Laravel, frameworks, browsers) continue to evolve rapidly. This project exists to **extend the usable life of XAMPP** by upgrading its core components to modern, secure, and supported versions — while keeping the familiar XAMPP structure.
+As official XAMPP development has slowed, modern web standards (PHP 8.5+, MariaDB 12+, modern TLS) continue to advance. This project serves as a **technical resurrection**, upgrading core components to their latest stable versions while preserving the classic XAMPP experience.
 
-This is **not a fork maintained by Apache Friends**.
-It is a **technical resurrection** for developers who still rely on XAMPP.
+### 🚀 Truly Portable
 
----
+This version is designed to be **fully portable**. You can carry your entire development environment on a USB drive or move it between folders without losing configurations or data. No installation, no registry mess—just plug and play.
 
 ### Included Components
 
-| Component | Version |
-|--------|--------|
-| Apache HTTP Server | **2.4.66** |
-| PHP | **8.5.1** |
-| MariaDB | **12.1.2** |
-| phpMyAdmin | **5.2.3** |
-
-All components are:
-- Windows x64
-- Modern TLS / OpenSSL compatible
-- Tested to work together
+|**Component**|**Version**|**Details**|
+|---|---|---|
+|**Apache HTTP Server**|**2.4.66**|x64, OpenSSL 3+|
+|**PHP**|**8.5.1**|Latest stable engine|
+|**MariaDB**|**12.1.2**|High-performance DB|
+|**phpMyAdmin**|**5.2.3**|Web interface|
 
 ---
 
-### Why This Project Exists
+### Why Use This Version?
 
-- XAMPP official releases lag behind modern PHP and database versions
-- Security updates are critical (TLS, OpenSSL, CVE fixes)
-- Many developers still prefer XAMPP for:
-  - Local development
-  - Teaching / training
-  - Offline environments
-  - Portable setups
+- **Modern Standards:** Supports the latest PHP features and security protocols.
+    
+- **Zero Complexity:** No Docker or virtualization required; just the familiar XAMPP workflow.
+    
+- **Ready for HTTPS:** Includes a pre-configured self-signed SSL certificate for local testing.
+    
+- **Legacy Support:** Perfect for developers maintaining older projects that need a performance boost.
+    
 
-This project:
-- Keeps XAMPP usable
-- Avoids Docker complexity
-- Preserves classic workflow
+### Included Setup Extras
 
----
+To ensure a smooth "out-of-the-box" experience, the `setup/` directory includes:
 
-### Design Principles
+- **`VC_redist.x64.exe`**: Essential Microsoft C++ runtimes to prevent "missing DLL" errors.
+    
+- **`server.crt`**: A ready-to-use SSL certificate for local HTTPS development.
+    
 
-- **Minimal changes** to original XAMPP structure
-- **No vendor lock-in**
-- **No Docker, no virtualization**
-- Transparent configuration
-- Manual upgrade-friendly
+> ⚠️ **Warning:** Not recommended for production environments. Use for local development only.
 
 ---
 
-### Intended Audience
+## Tiếng Việt
 
-- Developers maintaining legacy XAMPP projects
-- WordPress developers on Windows
-- Educators / students
-- Power users who understand local server stacks
+### Tổng quan
 
-⚠️ **Not recommended for production environments**
+**XAMPP Custom 4.0.0** là phiên bản nâng cấp không chính thức, được duy trì bởi cộng đồng dành cho người dùng Windows.
 
----
+Trong khi phiên bản XAMPP chính thức đã dừng phát triển tích cực, các ứng dụng web hiện đại (WordPress, Laravel) vẫn liên tục tiến hóa. Dự án này giúp **kéo dài vòng đời của XAMPP** bằng cách cập nhật các thành phần cốt lõi lên phiên bản mới nhất, bảo mật nhất mà vẫn giữ nguyên cấu trúc quen thuộc.
 
-### Disclaimer
+### 🚀 Khả năng Portable (Di động) tuyệt vời
 
-This project:
-- Is **unofficial**
-- Is **not affiliated** with Apache Friends
-- Comes **without warranty**
+Điểm mạnh nhất của phiên bản này là tính **Portable hoàn toàn**. Bạn có thể sao chép toàn bộ thư mục vào USB hoặc ổ cứng di động và mang đi làm việc ở bất cứ đâu. Không cần cài đặt rườm rà vào hệ thống, không làm rác Registry của Windows—chỉ cần giải nén và chạy.
 
-Use at your own risk.
+### Các thành phần chính
 
----
-
-### Status
-
-✅ Stable for local development
-🛠 Actively maintained by the community
+|**Thành phần**|**Phiên bản**|**Chi tiết**|
+|---|---|---|
+|**Apache HTTP Server**|**2.4.66**|Windows x64|
+|**PHP**|**8.5.1**|Động cơ PHP mới nhất|
+|**MariaDB**|**12.1.2**|Cơ sở dữ liệu hiện đại|
+|**phpMyAdmin**|**5.2.3**|Quản lý DB trực quan|
 
 ---
 
-### Setup Extras Included
+### Tại sao nên dùng bản này?
 
-To reduce common setup errors and save time, this repository **already includes essential supporting files** in the `setup/` directory:
+- **Cập nhật bảo mật:** Tương thích TLS/OpenSSL mới nhất, sửa các lỗi CVE quan trọng.
+    
+- **Đơn giản:** Tránh được sự phức tạp của Docker hay máy ảo; giữ nguyên cách làm việc truyền thống.
+    
+- **Hỗ trợ HTTPS:** Chuẩn bị sẵn chứng chỉ SSL để test các tính năng yêu cầu bảo mật như WordPress hay REST API.
+    
+- **Dành cho mọi người:** Từ lập trình viên chuyên nghiệp đến các bạn sinh viên đang học tập.
+    
 
-- **`VC_redist.x64.exe`**  
-  Microsoft Visual C++ Redistributable (2015–2022, x64).  
-  Required for Apache, PHP, ImageMagick, and several native extensions to run correctly on Windows.
+### Các tệp hỗ trợ đi kèm
 
-- **`server.crt`**  
-  A ready-to-use self-signed SSL certificate for local HTTPS development.  
-  Useful for WordPress, REST API, cURL, and modern browser testing.
+Trong thư mục `setup/`, chúng tôi đã chuẩn bị sẵn:
 
-These files are provided so users:
-- Do not encounter missing VC++ runtime errors
-- Can enable HTTPS immediately if needed
+- **`VC_redist.x64.exe`**: Microsoft Visual C++ Redistributable, giúp tránh lỗi thiếu file hệ thống khi chạy Apache/PHP.
+    
+- **`server.crt`**: Chứng chỉ SSL self-signed để bật HTTPS ngay lập tức.
+    
 
-⚠️ The included certificate is intended for **local development only**, not for production use.
-
----
-
-## 🇻🇳 Tiếng Việt
-
-### Trạng thái
-
-✅ Ổn định cho môi trường local
-🛠 Đang được duy trì bởi cộng đồng
-
----
-
-### Các tệp hỗ trợ đã được chuẩn bị sẵn
-
-Để giảm lỗi khi cài đặt và giúp mọi người sử dụng nhanh hơn, repo này **đã chuẩn bị sẵn các tệp cần thiết** trong thư mục `setup/`:
-
-- **`VC_redist.x64.exe`**  
-  Microsoft Visual C++ Redistributable (2015–2022, x64).  
-  Bắt buộc cho Apache, PHP, ImageMagick và nhiều extension native khác hoạt động đúng trên Windows.
-
-- **`server.crt`**  
-  Chứng chỉ SSL self-signed dùng sẵn cho HTTPS local.  
-  Phù hợp cho WordPress, REST API, cURL và test trên trình duyệt hiện đại.
-
-Việc chuẩn bị sẵn các tệp này giúp:
-- Tránh lỗi thiếu VC++ Runtime
-- Có thể bật HTTPS ngay khi cần
-
-⚠️ Chứng chỉ đi kèm **chỉ dùng cho môi trường local**, không dùng cho production.
+> ⚠️ **Lưu ý:** Chỉ sử dụng cho môi trường phát triển (Local Development), không dùng cho môi trường thực tế (Production).
