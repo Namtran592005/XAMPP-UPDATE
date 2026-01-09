@@ -1,6 +1,10 @@
+
+---
+
 # XAMPP Custom 4.0.0 – Revived Edition
 
 ---
+
 ## English
 
 ### Overview
@@ -44,10 +48,21 @@ To ensure a smooth "out-of-the-box" experience, the `setup/` directory includes:
 - **`server.crt`**: A ready-to-use SSL certificate for local HTTPS development.
     
 
-> ⚠️ **Warning:** Not recommended for production environments. Use for local development only.
+### 📥 Download & Installation
+
+1. **Download:** Click the **Code** button on GitHub and select **Download ZIP**, or download from the **Releases** page.
+    
+2. **Extract:** Unzip the downloaded file.
+    
+3. **Rename:** Rename the extracted folder to exactly `xampp`.
+    
+4. **Move:** Transfer the `xampp` folder directly to your **`C:\`** drive. The final path must be **`C:\xampp`** for the program to function correctly.
+    
+5. **Prerequisites:** Run `setup/VC_redist.x64.exe` to ensure all system components are ready.
+    
 
 ---
-
+> ⚠️ **Warning:** Not recommended for production environments. Use for local development only.
 ## Tiếng Việt
 
 ### Tổng quan
@@ -91,4 +106,18 @@ Trong thư mục `setup/`, chúng tôi đã chuẩn bị sẵn:
 - **`server.crt`**: Chứng chỉ SSL self-signed để bật HTTPS ngay lập tức.
     
 
+### 📥 Hướng dẫn tải về và Cài đặt
+
+1. **Tải về:** Nhấn nút **Code** trên GitHub và chọn **Download ZIP**, hoặc tải bản mới nhất tại mục **Releases**.
+    
+2. **Giải nén:** Giải nén tệp tin vừa tải về máy.
+    
+3. **Đổi tên:** Đổi tên thư mục đã giải nén thành `xampp`.
+    
+4. **Di chuyển:** Chép thư mục `xampp` vào ổ đĩa **`C:\`**. Đảm bảo đường dẫn chuẩn là **`C:\xampp`** để chương trình có thể chạy mà không gặp lỗi cấu hình.
+    
+5. **Cài đặt thư viện:** Chạy tệp `setup/VC_redist.x64.exe` để cài đặt môi trường Microsoft C++ cần thiết.
+    
+
 > ⚠️ **Lưu ý:** Chỉ sử dụng cho môi trường phát triển (Local Development), không dùng cho môi trường thực tế (Production).
+---
